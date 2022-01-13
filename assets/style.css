@@ -1,0 +1,44 @@
+QWidget#centralwidget {
+	background-image:url(assets/bg.jpg);
+}
+
+QFrame#frame {
+	background-color: rgba(255,255,255,60);
+}
+
+QLabel {
+	background: transparent;
+}
+
+.title {
+	font: 75 32pt "URW Palladio L";
+	color: rgb(52, 160, 255);
+}
+
+QTextEdit#input {
+	background:transparent;
+	border:none;
+	border-bottom: 1px solid rgb(23, 167, 245);
+	color: white;
+}
+
+.txt {
+	color: white;
+	font: 63 14pt "Yrsa SemiBold";
+}
+
+.btn {
+	background-color: rgb(0, 85, 0);
+	color: white;
+}
+
+.btn:hover {
+	color: rgb(52, 160, 255);
+	background: white;
+}
+
+
+QPushButton#send {
+	background: url(assets/send.png);
+	border: none;
+}
